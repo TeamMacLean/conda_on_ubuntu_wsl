@@ -6,7 +6,7 @@ if [ ! -e ~/miniconda3_installer.sh ]; then
 	wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3_installer.sh 
 fi
 
-bash ~/miniconda3_installer.sh -b -p $HOME && rm ~/miniconda3_installer.sh && echo "Miniconda3 installation completed......"
+bash ~/miniconda3_installer.sh -b -p $HOME/miniconda3 && rm ~/miniconda3_installer.sh && echo "Miniconda3 installation completed......"
 
 source ~/.bashrc
 
@@ -27,4 +27,6 @@ conda install minimap2
 echo "You can install other programs of your interest with the command template below"
 echo "conda insall ProgramName"
 
-echo "For more help on conda, see conda --help"
+echo "For more help on conda, see \n
+conda --help \n
+conda install --help"
