@@ -9,6 +9,7 @@ fi
 bash ~/miniconda3_installer.sh -b -p $HOME/miniconda3 && rm ~/miniconda3_installer.sh && echo "Miniconda3 installation completed......"
 
 echo "export PATH=\$PATH:~/miniconda3/bin/" >> ~/.bashrc
+sleep 5
 source ~/.bashrc
 
 echo "conda is installed here: " $(which conda)
@@ -20,13 +21,13 @@ conda config --add channels conda-forge
 
 
 echo "Installing Samtools from conda"
-conda install samtools
+conda install --yes samtools
 
 echo "Installing minimap2 from conda"
-conda install minimap2
+conda install --yes minimap2
 
 echo "You can install other programs of your interest with the command template below"
-echo "conda insall ProgramName"
+echo "conda insall Program_Name"
 
 echo "For more help on conda, see \n
 conda --help \n
