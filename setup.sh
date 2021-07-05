@@ -8,7 +8,7 @@ fi
 
 bash ~/miniconda3_installer.sh -b -p $HOME/miniconda3 && rm ~/miniconda3_installer.sh && echo "Miniconda3 installation completed......"
 
-echo "export PATH=\$PATH:~/miniconda3/bin/" >> ~/.bashrc
+echo "export PATH=\$PATH:~/miniconda3/bin" >> ~/.bashrc
 sleep 5
 source ~/.bashrc
 
