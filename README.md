@@ -5,7 +5,10 @@ This repository is for installing miniconda3, adding bioconda channel and instal
 ### Steps
 
 1) install WSL2 in windows 10 machine following the tutorial from here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
-You will need admin access for this.
+There are simplified installation and manual installation steps. I followed manual installation steps. You will need admin access for installing. To get admin previledge, run "command prompt" as an administrator. Do the following to run as administrator (if you have admin rights)
+  - click search icon at the bottom left corner side and type **cmd**. It should list "command prompt" app at the right
+  - click "Run as administrator" from the list
+  - follow the manual installation steps from the link above.
 2) install ubuntu app from microsoft store after step 1.
 3) start the ubuntu app. This will ask to create new user and set password for the user for one time only
 4) Download the setup script from ubuntu terminal. The command is: 
