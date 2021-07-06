@@ -11,7 +11,12 @@ There are simplified installation and manual installation steps. I followed manu
   - follow the manual installation steps from the link above.
 2) Install **Ubuntu 20.04 LTS** app from microsoft store after step 1.
 3) Start the ubuntu app by clicking **Launch**. This will ask to create new user and set password for the user for one time only. After you choose a username and password, the command prompt showing your **username@machineid** appears. This shows ubuntu is ready to accept commands below from you.
-4) Download the setup script from ubuntu terminal. The command is: 
-```wget  https://raw.githubusercontent.com/TeamMacLean/conda_on_ubuntu_wsl/master/setup.sh```
+4) Download the setup script from ubuntu terminal. The command is:
+5) 
+```
+wget  https://raw.githubusercontent.com/TeamMacLean/conda_on_ubuntu_wsl/master/setup.sh
+```
 5) Run the setup script. command: 
-```bash setup.sh```
+```
+bash setup.sh
+```
