@@ -16,7 +16,9 @@ There are simplified installation and manual installation steps. I followed manu
 ```
 wget  https://raw.githubusercontent.com/TeamMacLean/conda_on_ubuntu_wsl/master/setup.sh
 ```
-5) Run the setup script. command: 
+5) Run the setup script to install miniconda3. The command is:
 ```
 bash setup.sh
 ```
+
+During miniconda3 installation, you will be asked to type **enter** or type **yes** or **no**. Enter **yes** whereever you are asked.
